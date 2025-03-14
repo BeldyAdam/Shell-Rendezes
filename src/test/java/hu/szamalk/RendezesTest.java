@@ -6,10 +6,12 @@ import static org.junit.jupiter.api.Assertions.*;
 class RendezesTest {
 
     public boolean eldontesTetel(int[] lista) {
-        for (int i = 0; i < lista.length - 1; i++) {
+        int i = 0;
+        while(i < lista.length - 1) {
             if (lista[i] > lista[i + 1]) {
                 return false;
             }
+            i++;
         }
         return true;
     }
