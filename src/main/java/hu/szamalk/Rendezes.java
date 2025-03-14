@@ -10,7 +10,6 @@ public class Rendezes {
     public void rendez() {
         int n = lista.length;
         int gap = n / 2;
-
         while (gap > 0) {
             for (int i = gap; i < n; i++) {
                 int temp = lista[i];
